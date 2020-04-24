@@ -1,8 +1,8 @@
-# Only Relevant Information Matters: Filtering Out Noisy Samples to Boost RL
+# Only Relevant Information Matters:</br>Filtering Out Noisy Samples to Boost RL
 This repository is the official implementation of [SAUNA]() accepted at IJCAI 2020.
 
-## Variance explained
-<img src="https://render.githubusercontent.com/render/math?math=\mathcal{V}^{ex}"> **function** is implemented [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/common/policies.py#L66) in `baselines/common/policies.py` while its associated **loss** is computed [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/ppo2/model.py#L90) in `baselines/ppo2/model.py`. Other dependencies exist in the code.
+## Implementation details
+<img src="https://render.githubusercontent.com/render/math?math=\mathcal{V}^{ex}"> *function* is implemented [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/common/policies.py#L66) in `baselines/common/policies.py` while its associated *loss* is computed [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/ppo2/model.py#L90) in `baselines/ppo2/model.py`. Other dependencies exist in the code.
 
 ## Prerequisites
 `SAUNA` requires python3 (>=3.5).
