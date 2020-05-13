@@ -2,7 +2,7 @@
 This repository is the official implementation of [SAUNA]() accepted at IJCAI 2020.
 
 ## Implementation details
-<img src="https://render.githubusercontent.com/render/math?math=\mathcal{V}^{ex}"> *function* is implemented [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/common/policies.py#L66) in `baselines/common/policies.py` while its associated *loss* is computed [here](https://github.com/yfletberliac/SAUNA/blob/da32a60230d70d20dceaf4288cd374de27f7161c/baselines/ppo2/model.py#L90) in `baselines/ppo2/model.py`. Other dependencies exist in the code.
+<img src="https://render.githubusercontent.com/render/math?math=\mathcal{V}^{ex}"> *function* is implemented [here](https://github.com/yfletberliac/SAUNA/blob/142a4e7e9eb63e6ab9f87877a01dfc6eeb6e3f85/baselines/common/policies.py#L66) in `baselines/common/policies.py` while its associated *loss* is computed [here](https://github.com/yfletberliac/SAUNA/blob/142a4e7e9eb63e6ab9f87877a01dfc6eeb6e3f85/baselines/ppo2/model.py#L90) in `baselines/ppo2/model.py`. Other dependencies exist in the code.
 
 ## Prerequisites
 `SAUNA` requires python3 (>=3.5).
