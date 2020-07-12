@@ -95,12 +95,16 @@ The code has been forked from [OpenAI baselines](https://github.com/openai/basel
 
 ## Reference
 ```
-@inproceedings{yfletberliac-sauna,
-  title     = {Only Relevant Information Matters: Filtering Out Noisy Samples to Boost RL},
+@inproceedings{ijcai2020-376,
+  title     = {Only Relevant Information Matters: Filtering Out Noisy Samples To Boost RL},
   author    = {Flet-Berliac, Yannis and Preux, Philippe},
   booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on
                Artificial Intelligence, {IJCAI-20}},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  pages     = {2711--2717},
   year      = {2020},
+  month     = {7},
+  doi       = {10.24963/ijcai.2020/376},
+  url       = {https://doi.org/10.24963/ijcai.2020/376},
 }
 ```
