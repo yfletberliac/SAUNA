@@ -1,5 +1,5 @@
 # Only Relevant Information Matters:</br>Filtering Out Noisy Samples to Boost RL
-This repository is the official implementation of [SAUNA]() accepted at IJCAI 2020.
+This repository is the official implementation of [SAUNA](https://arxiv.org/abs/1904.04025) accepted at IJCAI 2020.
 
 ## Implementation details
 <img src="https://render.githubusercontent.com/render/math?math=\mathcal{V}^{ex}"> *function* is implemented [here](https://github.com/yfletberliac/SAUNA/blob/142a4e7e9eb63e6ab9f87877a01dfc6eeb6e3f85/baselines/common/policies.py#L66) in `baselines/common/policies.py` while its associated *loss* is computed [here](https://github.com/yfletberliac/SAUNA/blob/142a4e7e9eb63e6ab9f87877a01dfc6eeb6e3f85/baselines/ppo2/model.py#L90) in `baselines/ppo2/model.py`. Other dependencies exist in the code.
